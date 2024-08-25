@@ -1,0 +1,87 @@
+/* Estilos generales para todo el sitio */
+body {
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente a algo moderno y legible */
+    color: #333; /* Color de texto principal */
+    background-color: #f5f7fa; /* Fondo suave */
+    line-height: 1.6; /* Mejora la legibilidad */
+    margin-top: 80px;
+}
+  
+  /* Ajustes en la barra de navegación */
+  .custom-navbar {
+    background-color: #1f2833; /* Color oscuro elegante */
+    box-shadow: rgba(0, 0, 0, 0.15); /* Sombra más profunda */
+    padding: 0.75rem 1.5rem; /* Más espacio alrededor de los elementos */
+    position: fixed; /* Fija la barra en la parte superior */
+    width: 100%; /* Asegura que la barra ocupe todo el ancho */
+    top: 0; /* Posición en la parte superior */
+    left: 0; /* Posición en la parte izquierda */
+    z-index: 1000; /* Asegura que esté encima del contenido */
+}
+  
+  .custom-navbar .navbar-brand {
+    font-weight: bold;
+    color: #66fcf1; /* Color destacado para el logo */
+    font-size: 1.5rem;
+  }
+  
+  .custom-navbar .nav-link {
+    color: #c5c6c7; /* Color más suave */
+    margin-right: 20px;
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #45a29e; /* Cambio de color sutil al pasar el ratón */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo ligero al hacer hover */
+    border-radius: 5px; /* Bordes redondeados para suavidad */
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    background-image: url('/public/images/menu-icon.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Estilos para el contenido principal */
+  .container {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #0b0c10; /* Títulos en un tono más oscuro */
+  }
+  
+  p {
+    color: #4e5a65; /* Texto en color suave */
+  }
+  
+  /* Botones */
+.btn-primary {
+    background-color: #45a29e;
+    border-color: #45a29e;
+    color: #ffffff;
+}
+  
+.btn-primary:hover {
+    background-color: #66fcf1;
+    border-color: #66fcf1;
+}
+  
+  /* Footer */
+footer {
+    background-color: #1f2833;
+    color: #c5c6c7;
+    padding: 20px;
+    text-align: center;
+}
+  
+footer a {
+    color: #66fcf1;
+}
+  
+footer a:hover {
+    color: #45a29e;
+}
+  
